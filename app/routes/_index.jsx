@@ -1,8 +1,7 @@
 import ServerBar from "../components/ServerBar";
 import "../app.css";
 import MessageBox from "../components/MessageBox";
-import { useFriendStore } from "../stores/friendStores";
-import MainSecond from "../components/FriendText";
+import IsMakeDm from "../components/IsMakeDm";
 
 export default function Home() {
   // 더미 데이터로 친구 목록 표시
@@ -28,7 +27,7 @@ export default function Home() {
         </div>
       </div>
 
-      <isMakedm />
+      <IsMakeDm />
     </div>
   );
 }

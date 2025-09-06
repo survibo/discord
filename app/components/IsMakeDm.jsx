@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 export default function IsMakeDm() {
   const { isMakedm, setIsMakedm, findFriends, addFriend } = useFriendStore();
-  const navigate = useNavigate();
 
   return (
     isMakedm && (
